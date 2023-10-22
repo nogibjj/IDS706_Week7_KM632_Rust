@@ -7,12 +7,14 @@ and returns the plaintext string.
 
 */
 
+use std::env::Args;
+
 use caesar_cipher::decrypt;
 use caesar_cipher::encrypt;
 
 fn main() {
-    let plaintext = "the quick brown fox jumps over the lazy dog";
-    let shift = 3;
+    let args: Args = Args::parse();
+    
     let ciphertext = encrypt(plaintext, shift);
     let decrypted_text = decrypt(&ciphertext, shift);
     println!("Plaintext: {}", plaintext);
