@@ -4,7 +4,7 @@ CREDIT/Note: Forked from the Data Engineering course repo maintained by Professo
 
 In this project, I create additional command line tool (CLT) to the encryption project located in the caeser-cipher-cli directory.
 
-The original code was built to print encryption and decryption reuslts into the terminal. **Optional --output CLT is now added so that encryption and decryption results are captured in a textfile.**
+The original code was built to print encryption and decryption results into the terminal. **Optional --output CLT is now added so that encryption and decryption results are captured in a textfile.**
 
 To encrypt a message using a specified shift value and capture the result to a file , please run the following: 
 
