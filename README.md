@@ -4,19 +4,19 @@ CREDIT/Note: Forked from the Data Engineering course repo maintained by Professo
 
 In this project, I create additional command line tool (CLT) to the encryption project located in the caeser-cipher-cli directory.
 
-The original code was built to print encryption and decryption reuslts into the terminal. Optional --output CLT is now added so that encryption and decryption results are captured in a textfile. 
+The original code was built to print encryption and decryption reuslts into the terminal. **Optional --output CLT is now added so that encryption and decryption results are captured in a textfile.**
 
 To encrypt a message using a specified shift value and capture the result to a file , please run the following: 
 
-   cargo run --  --message "Here goes your message to excrypt" --encrypt --shift 10 --output result.txt
+   **cargo run --  --message "Here goes your message to excrypt" --encrypt --shift 10 --output result.txt**
 
-   -- message : use this required flag to pass your message to encrypt
+   **-- message** : use this required flag to pass your message to encrypt
 
-   -- encrypt : use this flag to encrypt the message
+   **-- encrypt** : use this flag to encrypt the message
 
-   -- shift : use this optional flag to pass the the shift amount
+   **-- shift** : use this optional flag to pass the the shift amount
 
-   -- output : use this optional flag to capture the result of the encryption into a textfile
+   **-- output** : use this optional flag to capture the result of the encryption into a textfile
 
          * specify the name of the file you want to create and capture the results to
 
@@ -36,7 +36,7 @@ To encrypt a message using a specified shift value and capture the result to a f
 
 To encrypt a message using a specified shift value and capture the result to a file , please run the following: 
 
-   cargo run --  --message "Here goes your message to decypt" --decrypt --shift 10 --output result.txt
+   **cargo run --  --message "Here goes your message to decypt" --decrypt --shift 10 --output result.txt**
 
    Flags have the same meaning as the encrypt flag.
 
